@@ -27,7 +27,7 @@ npm start
 
 ## Teknologi
 - Chart.js (Visualisasi)
-- HTML5 + CSS3 + Vanilla JavaScript
+- HTML + CSS + JavaScript
 - Vercel (Deployment)
 
 ## Anggota
