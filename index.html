@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Top Spotify Songs 2023</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Dashboard Top Spotify Songs 2023</h1>
+        <p>Visualisasi interaktif data streams, danceability, dan tempo lagu hits global.</p>
+    </header>
+
+    <main class="dashboard-container">
+        <div class="chart-card">
+            <h2>Total Streams (Juta)</h2>
+            <canvas id="barChart"></canvas>
+        </div>
+
+        <div class="chart-card">
+            <h2>Skor Danceability (%)</h2>
+            <canvas id="doughnutChart"></canvas>
+        </div>
+
+        <div class="chart-card summary-card">
+            <h2>Sorotan Cepat</h2>
+            <div class="stats-container">
+                <div class="stat-box">
+                    <h3>Paling Banyak Diputar</h3>
+                    <p id="top-stream-title">-</p>
+                    <span id="top-stream-val">-</span>
+                </div>
+                <div class="stat-box">
+                    <h3>Paling Asik Buat Nari</h3>
+                    <p id="top-dance-title">-</p>
+                    <span id="top-dance-val">-</span>
+                </div>
+                <div class="stat-box">
+                    <h3>Rata-rata Tempo</h3>
+                    <p id="avg-bpm-val">-</p>
+                    <span>(Cenderung Cepat)</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="chart-card wide-card">
+            <h2>Tempo Lagu (BPM)</h2>
+            <canvas id="lineChart"></canvas>
+        </div>
+    </main>
+
+    <footer>
+        <p><strong>Sumber Data:</strong> Dataset Top Spotify Songs 2023 | <a href="https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023" target="_blank">Kaggle</a></p>
+        <p>Dibuat untuk memenuhi Proyek Akhir Visualisasi Data.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
