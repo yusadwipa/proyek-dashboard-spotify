@@ -2,7 +2,7 @@
 
 > Visualisasi interaktif mengenai jumlah streams, metrik danceability, dan tempo (BPM) dari lagu-lagu hits global tahun 2023 berdasarkan data Spotify.
 
-🔗 **Demo:** [Tulis Link Vercel Kamu Di Sini]
+🌐 **Demo:** [Tulis Link Vercel Kamu Di Sini]
 
 ## Isi Dashboard
 - **Chart 1:** Bar Chart — Menampilkan perbandingan total pemutaran (streams) dalam skala jutaan dari 10 lagu populer.
@@ -18,7 +18,12 @@
 
 ## Cara Jalankan di Lokal
 # Jalur A (static):
-Buka file `index.html` langsung di browser Anda atau menggunakan Live Server.
+Buka file `index.html` langsung di browser (atau pakai Live Server di VS Code)
+
+# Jalur B (server):
+npm install
+npm start
+# Buka http://localhost:3000
 
 ## Teknologi
 - Chart.js (Visualisasi)
